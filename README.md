@@ -10,7 +10,7 @@ Program will take a user input in the form of a number (0 and up), randomly gene
 
 * Clone the repository to your Desktop.
 * Open the html file in your preferred browser.
-* Or you can click on this link http://ceddy9176.github.io/beep-boop.
+* Or you can click on this link http://ceddy9176.github.io/beep-boop
 * talk to your only friend
 
 ## Specs
