@@ -15,10 +15,10 @@ Program will take a user input in the form of a number (0 and up), randomly gene
 
 ## Specs
 
-> User input results in a number containing: 1
+> User input results in a number containing 1
     -Output: "Boop!"
 
-> User input results in a number containing: 0
+> User input results in a number containing 0
     -Output: "Beep!"
 
 > User inputs a number divisible by 3  

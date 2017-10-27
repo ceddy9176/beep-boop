@@ -20,12 +20,14 @@ var beepBoop = function (input, name) {
 
 // Front end Logic
 $(document).ready(function() {
-    $("#userInput").submit(function(event) {
+    $("#form").submit(function(event) {
      event.preventDefault();
      var userInput = $("#userInput").val();
      var userName = $("#userName").val();
-     var result = beepBoop(input, name);
-     $(".result").show();
-     $("#output").text(result);
+     var results = beepBoop(userInput, userName);
+    results.forEach(function(item) {
+      $("#output").append("<p>" + item + "</p>");
+    });
+    $(".result").show();
    });
  });
