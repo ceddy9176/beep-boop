@@ -40,4 +40,5 @@ Program will take a user input in the form of a number (0 and up), randomly gene
 
 ## license
  Copyright (C) Connor Miller
+ 
 Open source. Feel free to pull, copy, edit, etc.
