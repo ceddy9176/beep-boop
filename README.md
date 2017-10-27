@@ -15,11 +15,14 @@ Program will take a user input in the form of a number (0 and up), randomly gene
 
 ## Specs
 
-> User input results in a number containing: 1 --> output: "Boop!"
----
-> User input results in a number containing: 0 --> output: "Beep!"
----
-> User inputs a number divisible by 3  --> output: a string "I'm sorry, Dave. I'm afraid I can't do that."
+> User input results in a number containing: 1
+    -Output: "Boop!"
+
+> User input results in a number containing: 0
+    -Output: "Beep!"
+
+> User inputs a number divisible by 3  
+    -Output: a string "I'm sorry, Dave. I'm afraid I can't do that."
 
 
 ## known bugs
@@ -40,5 +43,5 @@ Program will take a user input in the form of a number (0 and up), randomly gene
 
 ## license
  Copyright (C) Connor Miller
- 
+
 Open source. Feel free to pull, copy, edit, etc.
