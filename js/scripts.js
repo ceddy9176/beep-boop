@@ -1,4 +1,3 @@
-
 // back end logic
 var beepBoop = function (input, name) {
   var newArray = [];
@@ -26,8 +25,8 @@ $(document).ready(function() {
      var userName = $("#userName").val();
      var results = beepBoop(userInput, userName);
     results.forEach(function(item) {
-      $("#output").append("<p>" + item + "</p>");
+    $("#output").append("<p>" + item + "</p>");
     });
     $(".result").show();
-   });
- });
+  });
+});
